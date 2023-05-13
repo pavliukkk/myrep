@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 120px;
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+/*Header*/
+header{
+    padding: 35px;
+}
+.projectname{
+    color: #6fb6e6;
+    font-size: 30px;
+}
+.backgimage{
+    background-image: url(../media/jumbotron.jpg);
+    position: relative;
+    height: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backgimage h1{
+    padding-top: 115px;
+    text-align: center;
+    color: #fff;
+}
+.button{
+    font-size: 18px;
+    display: flex;
+    width: 240px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa5ba5;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    color: white;
+}
+/*Footer*/
+.footercolor{
+    color: #bcc9dd;
+    text-align: center;
+}
+footer {
+    padding: 50px 0 50px 0;
+    background-color: #38404b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footernav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.ulfornav{
+    list-style: none;
+    display: flex;
+}
